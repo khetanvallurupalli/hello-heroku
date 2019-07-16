@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 5000;
 const { DATABASE_URL } = process.env;
 const server = http.createServer((req, res) => {
   const client = new Client({
-    connectionString: "postgres://eazwukoicfoaif:5bdd452dbdf855a81f77d1c225300421e22c6ea9d87adc73c2deae759308b52d@ec2-54-225-242-183.compute-1.amazonaws.com:5432/d2rkbvpbbgm7mu",
+    connectionString: "postgres://wqpyzcyzfeotce:de5e64a491ea82ae592a1d79d235fe3ab6087a5735bb2a98fe6752abbd1f71fe@ec2-107-21-126-201.compute-1.amazonaws.com:5432/da1j2161nqhsa4",
   });
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
